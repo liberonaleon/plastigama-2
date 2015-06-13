@@ -1,0 +1,71 @@
+/*!
+ * Plastigama 2015
+ * Benjamin Liberona Leon @liberonaleon
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+#plastigama-bootstrap-menu {
+    font-family: 'maven_pro_light300';
+}
+
+#plastigama-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(208, 213, 217, 1);
+}
+#plastigama-bootstrap-menu.navbar-default {
+    font-size: 19px;
+    background-color: rgba(56, 84, 105, 1);
+    border-bottom-width: 1px;
+}
+#plastigama-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(208, 213, 217, 1);
+    background-color: rgba(56, 84, 105, 1);
+}
+#plastigama-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#plastigama-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 106, 0, 1);
+}
+#plastigama-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#plastigama-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#plastigama-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
+}
+#plastigama-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+#plastigama-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#plastigama-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+#plastigama-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#plastigama-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#plastigama-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #385469;
+}
+
+header {
+    position: relative;
+    width: 100%;
+     min-height: 100%;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
